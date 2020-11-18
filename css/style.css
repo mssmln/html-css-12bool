@@ -3,13 +3,21 @@
   margin: 0 auto;
 }
 
-/* FIVETH ROW */
-.col-6:only-child{
-  background-color: red;
+.row [class*="col-"]{
+  background-color: pink;
+  border: 2px solid black;
 }
 
-[span~=nested]{
-  background-color: red;
+
+/* FIVETH ROW */
+.row [class*="col-"]>.row [class*="col-"]{
+  background-color: rgb(227, 89, 59);
+  border: 1px solid white;
 }
+
+.row [class*="col-"] .row{
+  padding: 5px;
+}
+
 
 /* /FIVETH ROW */

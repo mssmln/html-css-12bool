@@ -11,17 +11,15 @@
   clear: both;
 }
 
-.row{
+/* .row{
   height: 200px;
-}
+} */
 
 .row [class*="col-"]{
   height: 100%;
   line-height: 200px;
   text-align: center;
   float: left;
-  background-color: pink;
-  border: 2px solid black;
 }
 
 /* COLUMN */
@@ -55,9 +53,6 @@
 .col-offset-11{margin-left: calc(100% / 12 * 11)}
 .col-offset-12{margin-left: calc(100% / 12 * 12)}
 /* /OFFSET */
-
-
-
 
 
 
