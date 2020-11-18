@@ -2,3 +2,14 @@
   max-width: 1170px;
   margin: 0 auto;
 }
+
+/* FIVETH ROW */
+.col-6:only-child{
+  background-color: red;
+}
+
+[span~=nested]{
+  background-color: red;
+}
+
+/* /FIVETH ROW */
